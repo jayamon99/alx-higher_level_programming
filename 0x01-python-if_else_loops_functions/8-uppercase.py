@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Author - Nashief Robertson Darko
+
 
 def uppercase(str):
     """Print a string in uppercase."""

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Author - Nashief Robertson Darko
+
 
 def islower(c):
     """Function checks for lowercase characters."""
