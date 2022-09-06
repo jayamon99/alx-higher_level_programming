@@ -1,8 +1,13 @@
 #!/usr/bin/node
-const { argv } = require('node:process');
 
-if (argv.length <= 3) {
-  console.log(0);
+const numsArray = process.argv.slice(2);
+function secondMax (array) {
+  if (array.length < 2) {
+    return (0);
+  } else {
+    array.sort((x, y) => x - y);
+    array.pop();
+    return (array.pop());
+  }
 }
-
-console.log(argv.slice(2).sort()[argv.length - 4]);
+console.log(secondMax(numsArray));
