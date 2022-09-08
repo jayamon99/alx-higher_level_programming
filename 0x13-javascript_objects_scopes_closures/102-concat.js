@@ -1,5 +1,5 @@
 #!/usr/bin/node
-
+const { process } = require('node:process');
 const fileA = process.argv[2];
 const fileB = process.argv[3];
 const fileC = process.argv[4];
