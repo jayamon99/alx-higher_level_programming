@@ -11,7 +11,7 @@ def find_peak(list_of_integers):
     if len(list_of_integers) == 0:
         return None
 
-    int_list = list_of_integers
+    """ int_list = list_of_integers
     start = 0
     end = len(int_list)-1
 
@@ -28,4 +28,5 @@ def find_peak(list_of_integers):
     elif int_list[mid] < int_list[mid+1]:
         return find_peak(int_list[mid:end+1])
     else:
-        return int_list[start]
+        return int_list[start] """
+    return max(list_of_integers)
