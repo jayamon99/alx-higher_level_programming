@@ -29,4 +29,4 @@ def find_peak(list_of_integers):
         return find_peak(int_list[mid:end+1])
     else:
         return int_list[start]
-        
+
